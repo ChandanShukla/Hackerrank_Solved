@@ -38,7 +38,7 @@ def print_formatted(number):
             j=j+1
             
             k=j-1
-            #print("k",k,end=" ")
+            print("k",k,end=" ")
             while k>-1:
                 if hexa[k]==0 and k==j-1:
                     print("",end="")
